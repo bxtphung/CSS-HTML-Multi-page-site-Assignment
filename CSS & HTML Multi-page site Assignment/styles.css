@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+}
+
+h1, p {
+    margin: 50px 300px;
+    font-family: 'Roboto';
+}
+
+h1 {
+    text-shadow: 2px 2px 5px red;
+}
+
+p {
+    background-color: #3ccf44;
+    box-shadow: 7px 7px;
+    padding: 100px;
+}
+
+ul {
+    background-color:black; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    font-size: 14px;
+    padding: 25px;
+}
+
+.right a{
+    float: right;
+}
+
+.left a:hover {
+    background-color:#3ccf44;
+}
+
+.viewcart a{
+    padding-right: 0;
+}
+
+.logo {
+    background: #DA3121;
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: normal;
+    padding: 19px 6px;
+}
+
+input[type=text] {
+    float: left;
+    border: 0;
+    margin: 17px;
+    margin-left: 20px;
+    margin-right: 0;
+    width: 240px;
+    height: 30px;
+}
+
+.search_btn {
+    border: 0;
+    margin: 17px 0px;
+    width: 30px;
+    height: 30px;
+    background-color: #DA3121;
+}
+
+.search_btn img {
+    width: 13px;
+    height: 13px;
+    filter: invert(1);
+    margin: 0;
+}  
+
+img.cart {
+    margin: 20px 5px;
+    width: 22px;
+    height: 22px;
+    filter: invert(1);
+}
+
+footer {
+    background-color: black;
+    text-align: center;  
+}
+
+footer li {
+    display: inline-block;
+    padding: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    font-size: 12px;   
+}
+
+footer a:hover {
+    background-color:#3ccf44;
+}
+
+img.tomato {
+    animation-name: tomato;
+    animation-duration: 4s;
+    width: 70px;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+@keyframes tomato {
+    from {opacity: 0}
+    to {opacity: 1}
+}
